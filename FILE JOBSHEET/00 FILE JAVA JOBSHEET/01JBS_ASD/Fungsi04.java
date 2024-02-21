@@ -2,6 +2,8 @@ public class Fungsi04 {
     private static final int[] hargaBunga = { 75000, 50000, 60000, 10000 };
 
     public static void main(String[] args) {
+
+        //buat simpen stok
         int[][] stokBunga = {
                 { 1, 10, 5, 15, 7 },
                 { 2, 6, 11, 9, 12 },
@@ -9,12 +11,14 @@ public class Fungsi04 {
                 { 4, 5, 7, 12, 9 }
         };
 
+        // ngitung pendapatan cabang ygy
         System.out.println("Pendapatan setiap cabang jika semua bunga habis terjual:");
         for (int i = 0; i < stokBunga.length; i++) {
             int pendapatanCabang = hitungPendapatanCabang(stokBunga[i]);
             System.out.println("Cabang " + stokBunga[i][0] + ": Rp " + pendapatanCabang);
         }
 
+        // buat ngitung stok
         System.out.println("\nJumlah stock setiap jenis bunga pada cabang Royal Garden:");
         int[] stokCabang = hitungStokCabang(stokBunga);
         for (int i = 0; i < stokCabang.length; i++) {
