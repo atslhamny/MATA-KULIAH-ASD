@@ -31,7 +31,7 @@ public class Array04 {
 
         System.out.println("============================================================");
         System.out.println("\nHasil Konversi Nilai");
-        System.out.println("MK\t\tNilai Angka\tNilai Huruf\tBobot Nilai");
+        System.out.println("MK\tNilai Angka\tNilai Huruf\tBobot Nilai");
         System.out.println("============================================================");
 
 
