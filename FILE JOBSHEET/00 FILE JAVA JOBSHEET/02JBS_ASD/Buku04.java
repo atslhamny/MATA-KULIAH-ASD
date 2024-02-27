@@ -22,14 +22,19 @@ public class Buku04 {
         System.out.println("Jumlah Halaman: " + halaman);
         System.out.println("Sisa Stok: " + stok);
         System.out.println("Harga: Rp. " + harga);
-        System.out.println("Harga Bayar : Rp. " + hargaBayar);
+        System.out.println("============================");
        
+       
+    }
+
+    void hargaSetelahDiskon(){
+        System.out.println("Harga Setelah Diskon:  " + hargaBayar);
     }
 
     void terjual(int jml){
         if (stok > 0) {
             stok -= jml;
-            System.out.println(jml + "Buku Tersisa");
+            System.out.println(jml  + " Buku Tersisa");
         }else{
             System.out.println("stok tidak valid");
         }
