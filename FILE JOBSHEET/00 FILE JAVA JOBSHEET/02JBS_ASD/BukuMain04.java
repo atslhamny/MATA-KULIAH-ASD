@@ -21,6 +21,10 @@ public class BukuMain04 {
 
         Buku04 BukuAtsilah = new Buku04("Love is Illution", "Moy Mori", 200, 12, 100000);
         BukuAtsilah.tampilInformasi();
+        BukuAtsilah.terjual(5);
+        BukuAtsilah.hargaSetelahDiskon();
+        
+
 
     }
 }
